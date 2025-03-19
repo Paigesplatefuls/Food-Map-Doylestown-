@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aad18f1aca83124029eba0e3f380fc73 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aad18f1aca83124029eba0e3f380fc73" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aad18f1aca83124029eba0e3f380fc73 = L.map(
+                "map_aad18f1aca83124029eba0e3f380fc73",
+                {
+                    center: [40.3133, -75.1284],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_34012c30b5ecd76f97c041c5008a24d0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_34012c30b5ecd76f97c041c5008a24d0.addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var marker_8b296fd15bea7458d8954d3b359988ff = L.marker(
+                [40.3115, -75.1286],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_c3c51b57b4d5e779b09e02b1d34052d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f1270184b43484a2f4247015ea4f096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bab9089e02adb3501e5458cea0750ac = $(`<div id="html_8bab9089e02adb3501e5458cea0750ac" style="width: 100.0%; height: 100.0%;"><strong>Omiza</strong><br>641 N Main St, Doylestown, PA<br><em>Where Sushi Meets Korean BBQ! Omiza in DTown Nailed it with their sushi. The rolls were fresh flavorful and a solid 10/10. I was impressed by how seriously they took my dietary requests-no sesame or gluten-and everything was perfectly tailored to my needs. Plus, their korean bbq room was a great touch to the place, I will be back to try it!</em></div>`)[0];
+                popup_6f1270184b43484a2f4247015ea4f096.setContent(html_8bab9089e02adb3501e5458cea0750ac);
+            
+        
+
+        marker_8b296fd15bea7458d8954d3b359988ff.bindPopup(popup_6f1270184b43484a2f4247015ea4f096)
+        ;
+
+        
+    
+    
+                marker_8b296fd15bea7458d8954d3b359988ff.setIcon(icon_c3c51b57b4d5e779b09e02b1d34052d9);
+            
+    
+            var marker_e03dd64d434c98433bfd85fa20252e6e = L.marker(
+                [40.2977, -75.1067],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_532bc71d73c0919b99a936d274c08071 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_198bd3a01d83a95fba3b324cf37677bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3ca67276afc173755b148a3e212bee1 = $(`<div id="html_a3ca67276afc173755b148a3e212bee1" style="width: 100.0%; height: 100.0%;"><strong>Terrain Cafe</strong><br>2100 Lower State Rd, Doylestown, PA<br><em>Terrian Cafe at Del Val is a beautiful setting that truly enhances the dining experience. I recently tried their potpie, truffle fries and cardamom latte and while the ambiance was a perfect 10/10, the food lads at an 8/10 for me. For an unforgettable atmosphere Terrain Cafe is definitely worth a visit!</em></div>`)[0];
+                popup_198bd3a01d83a95fba3b324cf37677bb.setContent(html_a3ca67276afc173755b148a3e212bee1);
+            
+        
+
+        marker_e03dd64d434c98433bfd85fa20252e6e.bindPopup(popup_198bd3a01d83a95fba3b324cf37677bb)
+        ;
+
+        
+    
+    
+                marker_e03dd64d434c98433bfd85fa20252e6e.setIcon(icon_532bc71d73c0919b99a936d274c08071);
+            
+    
+            var marker_d8457a31bc67b521039c589982c436ad = L.marker(
+                [40.3113, -75.1281],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_434319a6e7b0f0e175749d57dfbde643 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15653a0af4adf717c79270772bd46fb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f67b4fb7b9a7e9ae854bd21bfe5d653d = $(`<div id="html_f67b4fb7b9a7e9ae854bd21bfe5d653d" style="width: 100.0%; height: 100.0%;"><strong>Side Bar</strong><br>22 S Main St, Doylestown, PA<br><em>Sidebar in the Doylestown Marketplace completely blew me away! The spot may be small, but it's packed with flavor and personality. From the incredible cocktails to the 10/10 vibes, its officially my new favorite cocktail bar. The burrata is a must-try, and everything about this place just hits the right note. If youre in the area, don't miss out on this hidden gem-its an absolute 10/10 in my book!</em></div>`)[0];
+                popup_15653a0af4adf717c79270772bd46fb6.setContent(html_f67b4fb7b9a7e9ae854bd21bfe5d653d);
+            
+        
+
+        marker_d8457a31bc67b521039c589982c436ad.bindPopup(popup_15653a0af4adf717c79270772bd46fb6)
+        ;
+
+        
+    
+    
+                marker_d8457a31bc67b521039c589982c436ad.setIcon(icon_434319a6e7b0f0e175749d57dfbde643);
+            
+    
+            var marker_6cc64704331037a011f219b02e34a8bd = L.marker(
+                [40.3099, -75.1264],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_20312e630828253df0726dd99dff5a4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2ef511839aa50596ec08424aec09123 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04139c40830d7aa80276a4e4331d3c71 = $(`<div id="html_04139c40830d7aa80276a4e4331d3c71" style="width: 100.0%; height: 100.0%;"><strong>Vela</strong><br>140 Veterans Ln, Doylestown, PA<br><em>From the moment we walked in the ambiance set the tone for a memorable evening, with cozy lighting and a chic, modern, vibe. We tried a variety of dishes including the lobster polenta, branzino, pasta and steak. Each dish was flavorful and beautifully prepared. 9/10</em></div>`)[0];
+                popup_c2ef511839aa50596ec08424aec09123.setContent(html_04139c40830d7aa80276a4e4331d3c71);
+            
+        
+
+        marker_6cc64704331037a011f219b02e34a8bd.bindPopup(popup_c2ef511839aa50596ec08424aec09123)
+        ;
+
+        
+    
+    
+                marker_6cc64704331037a011f219b02e34a8bd.setIcon(icon_20312e630828253df0726dd99dff5a4d);
+            
+    
+            var marker_8e468e5d61bbca1b05b0244d7b7634a3 = L.marker(
+                [40.3111, -75.1287],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_d6fdd8f5ff42fb3a064d77bc25f6100f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20a4e03a56e76040a26d1576571c50f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afd11d2b6c316695f6cb307474dd3b4e = $(`<div id="html_afd11d2b6c316695f6cb307474dd3b4e" style="width: 100.0%; height: 100.0%;"><strong>Lula</strong><br>41 E State St, Doylestown, PA<br><em>Lula in Doylestown is the perfect spot for a cocktail and a chill vibe. The drinks and ambiance are definitely the highlights-perfect for a relaxed night out. The food, though, is a bit hit or miss. It's not mind-blowing, and there's room for improvement, but it's solid enough for appetizers and drinks. One thing Ilove is the unique card system: just flip it over, and your waitress comes right over!</em></div>`)[0];
+                popup_20a4e03a56e76040a26d1576571c50f7.setContent(html_afd11d2b6c316695f6cb307474dd3b4e);
+            
+        
+
+        marker_8e468e5d61bbca1b05b0244d7b7634a3.bindPopup(popup_20a4e03a56e76040a26d1576571c50f7)
+        ;
+
+        
+    
+    
+                marker_8e468e5d61bbca1b05b0244d7b7634a3.setIcon(icon_d6fdd8f5ff42fb3a064d77bc25f6100f);
+            
+    
+            var marker_017d99d72663af1fd121399a695f8cc4 = L.marker(
+                [40.312, -75.1283],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_15aacc1fc48f7fb78f876b84e5246b6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72bae1ac3407eedee3399b1c421562ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_231304fafb0a0c81605bbd936b671cb6 = $(`<div id="html_231304fafb0a0c81605bbd936b671cb6" style="width: 100.0%; height: 100.0%;"><strong>Nonno's</strong><br>6 E State St, Doylestown, PA<br><em>Nonno's Coffee Parlor is a cozy spot that's perfect for coffee lovers. Their pumpkin ice cream is a seasonal delight, offering a creamy texture and just the right amount of spice. It's like autumn in a cup! Pair it with your favorite coffee for a sweet treat, and you won't be disappointed. Nonno's gets a solid 10/10 for its inviting atmosphere and delicious seasonal flavors!</em></div>`)[0];
+                popup_72bae1ac3407eedee3399b1c421562ec.setContent(html_231304fafb0a0c81605bbd936b671cb6);
+            
+        
+
+        marker_017d99d72663af1fd121399a695f8cc4.bindPopup(popup_72bae1ac3407eedee3399b1c421562ec)
+        ;
+
+        
+    
+    
+                marker_017d99d72663af1fd121399a695f8cc4.setIcon(icon_15aacc1fc48f7fb78f876b84e5246b6d);
+            
+    
+            var marker_d974a2d156c7009696dabd62a3424867 = L.marker(
+                [40.3124, -75.129],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_8ca19f13c2d09d52a223f60178099c09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4959d22eac06c4ee1ce71433b3b26b7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f1308825f00733c6db619793b44ce66 = $(`<div id="html_9f1308825f00733c6db619793b44ce66" style="width: 100.0%; height: 100.0%;"><strong>Kung Fu</strong><br>33 N Main St, Doylestown, PA<br><em>Kung Fu is a top choice for delicious takeout, and their soup dumplings and rice noodles are standout dishes. The soup dumplings are perfectly delicate, and burst with flavor in every bite. The rice noodles, are packed with fresh veggies or meat, are another must-try. Takeout is the way to go here, but if youve got time, stick around. 9/10 for reliable tasty dishes.</em></div>`)[0];
+                popup_4959d22eac06c4ee1ce71433b3b26b7e.setContent(html_9f1308825f00733c6db619793b44ce66);
+            
+        
+
+        marker_d974a2d156c7009696dabd62a3424867.bindPopup(popup_4959d22eac06c4ee1ce71433b3b26b7e)
+        ;
+
+        
+    
+    
+                marker_d974a2d156c7009696dabd62a3424867.setIcon(icon_8ca19f13c2d09d52a223f60178099c09);
+            
+    
+            var marker_6fb8df282729b8df169ca73833842a3a = L.marker(
+                [40.3092, -75.131],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_c59203afe34d6a1c9edf7d873bef5ccc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_667ca61efcf941a796adcfbc3ff9c1d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c197c777fc53987ff162b3eb3f3ca6e = $(`<div id="html_7c197c777fc53987ff162b3eb3f3ca6e" style="width: 100.0%; height: 100.0%;"><strong>Dean's Chicken and Seafood</strong><br>800 N Easton Rd, Doylestown, PA<br><em>Dean's Chicken and Seafood in Doylestown is a top spot for comfort food. Their fried chicken is perfectly crispy and juicy, while the seafood, especially the lobster roll is fresh and buttery. Simple, delicious, and satisfying Dean's gets a 9/10 for consistently great food.</em></div>`)[0];
+                popup_667ca61efcf941a796adcfbc3ff9c1d4.setContent(html_7c197c777fc53987ff162b3eb3f3ca6e);
+            
+        
+
+        marker_6fb8df282729b8df169ca73833842a3a.bindPopup(popup_667ca61efcf941a796adcfbc3ff9c1d4)
+        ;
+
+        
+    
+    
+                marker_6fb8df282729b8df169ca73833842a3a.setIcon(icon_c59203afe34d6a1c9edf7d873bef5ccc);
+            
+    
+            var marker_1637880408077ff558eb4b12b1262c5c = L.marker(
+                [40.3129, -75.1306],
+                {
+}
+            ).addTo(map_aad18f1aca83124029eba0e3f380fc73);
+        
+    
+            var icon_73fcc7df82f1a5df890ffe64b78a5b1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7eb675e296ad9734f6f91c62183fd047 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a871b5715c6e6f5dc3a9d090ac933e22 = $(`<div id="html_a871b5715c6e6f5dc3a9d090ac933e22" style="width: 100.0%; height: 100.0%;"><strong>The Hattery</strong><br>18 W State St, Doylestown, PA<br><em>The Hattery Stove & Still in Doylestown serves up both classic and bold dishes. Their chicken pot pie is a comforting staple, but the escargot truly steals the show it was insanely good.</em></div>`)[0];
+                popup_7eb675e296ad9734f6f91c62183fd047.setContent(html_a871b5715c6e6f5dc3a9d090ac933e22);
+            
+        
+
+        marker_1637880408077ff558eb4b12b1262c5c.bindPopup(popup_7eb675e296ad9734f6f91c62183fd047)
+        ;
+
+        
+    
+    
+                marker_1637880408077ff558eb4b12b1262c5c.setIcon(icon_73fcc7df82f1a5df890ffe64b78a5b1e);
+            
+</script>
+</html>
